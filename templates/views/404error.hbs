@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html long=""en>
+    <head>
+       {{>headerlink}}
+    </head>
+    <body>
+
+      {{>navbar}}
+      
+       <!---main header-->
+        <div class="containter-fluid main_header">
+            <div class="row">
+                <div class="col -md-10 col-12 mx-auto">
+                   <div class="row">
+                       <!--- left side div -->
+                       <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                         <img src="image/404.jpg" alt="pranod" class="img-fluid" title="My collage pic with Friends">
+                        </figure> 
+                    
+                            <p>Welcome to weather app</p>
+                            <h1>{{errorMsg}}</h1>
+                            <!-- <a herf="https://www.linkedin.com/in/pramod-kumar-a8767b209/"><button class="GFG">about me</button></a> -->
+                            <a href="/">
+                                <button class="about-btn">
+                                    Go Back
+                                </button>
+                            </a>
+                       </div>
+                       <!--- right side div -->
+                        
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div> 
+        
+        <!--- footer -->
+        {{>footer}}
+    </body>
+</html>
