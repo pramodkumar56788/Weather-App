@@ -38,7 +38,7 @@
                 "<i class='fas fa-cloud-rain' style='color:#a4b0be;'></i>";
                }else {
                 temp_status.innerHTML =
-                "<i class='fas fa-sun' style='color:#eccc68;'></i>";
+                "<i class='fas fa-sun' style='color:#C6DAE5;'></i>";
                }
                
                data_hide.classList.remove('data_hide');
